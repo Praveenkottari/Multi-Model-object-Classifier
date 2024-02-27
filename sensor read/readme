@@ -1,0 +1,1 @@
+The goal of this project is to interface with an embedded device equipped with sensors such as an IMU, a gyroscope, and a compass. The project will capture real-time data from these sensors, transmit the data over a COM port to a computer, and save the readings in a structured CSV file format. This enables further analysis or integration with other systems.
