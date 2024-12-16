@@ -1,2 +1,2 @@
-# Embedded
-Inclunding all embeded projects
+# Algorithems
+Alogorithems study
