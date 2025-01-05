@@ -5,9 +5,9 @@ python train.py --data_dir ./dataset --model vgg16 --run_name vgg16  --epoch 25
 python test.py --data_dir ./dataset --model deit --weights ./results/runs/deit/weights/best.pt
 
 #train-validtion split
-python train-val-split.py --dataset_dir ./dataset/exp1/data --train_dir ./dataset/exp1/train --val_dir ./dataset/exp1/val --train_ratio 0.75 --val_ratio 0.25
+python train-val-split.py --dataset_dir ./dataset/data --train_dir ./dataset/train --val_dir ./dataset/val --train_ratio 0.75 --val_ratio 0.25
 
-#predict unkown label of the image
-python predict.py --data_dir ./dataset/example_data/predict-samples  --model resnet18 --weights best.pt --yaml class_names.yaml
+#predict unknown label of the image
+python predict.py --data_dir ./dataset/samples --model resnet18 --weights best.pt --yaml class_names.yaml
 
 python predict.py --single_image 1.jpg --model resnet18 --weights best.pt --yaml class_names.yaml  
