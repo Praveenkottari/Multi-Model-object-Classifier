@@ -64,5 +64,23 @@ After training process complete  utilize the trained weights to test the model.
   python test.py --data_dir ./dataset --model deit --weights ./results/runs/run1_SimpleConvNet/weights/best.pt
 ```
 
+## Preprocessing code
+used to move items from one folder to another
+```bash
+  python move_data.py 
+```
+To split the data to training and validation from raw dataset
+```bash
+  python train-val-split.py --dataset_dir ./dataset/data --train_dir ./dataset/train --val_dir ./dataset/val --train_ratio 0.75 --val_ratio 0.25
+```
+  
+
+
+## Used By
+
+This project is used by the following companies:
+
+- Company 1
+- Company 2
 
 
