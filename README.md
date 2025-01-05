@@ -73,14 +73,25 @@ To split the data to training and validation from raw dataset
 ```bash
   python train-val-split.py --dataset_dir ./dataset/data --train_dir ./dataset/train --val_dir ./dataset/val --train_ratio 0.75 --val_ratio 0.25
 ```
-  
+## Predict unlabed iamges
+any number of image samples in the folder
+(change model weights according to your model)
+```bash
+  python predict.py --data_dir ./dataset/samples --model resnet18 --weights best.pt --yaml class_names.yaml
+```
+predication on single image
+```bash
+  python predict.py --single_image 1.jpg --model resnet18 --weights best.pt --yaml class_names.yaml  
+```
 
+## Notes
 
-## Used By
+Some of the importent notes from this projects:
+- This project used some sample dataset the full dataset link given in the dataset.txt file
+- This repo can be used for any number of classes and any number of samples wth any resolution
+- The result of the some of the model trained on the sample dataset given in the result folder
+- results/inference folder gives insight on the test result
+- dataset should conatine given formate. you can modify the path according to the need of the project.
 
-This project is used by the following companies:
-
-- Company 1
-- Company 2
 
 
