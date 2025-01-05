@@ -16,7 +16,7 @@ This repository is a valuable resource for researchers, students, and profession
 
 ## Clone the repo
 
-install required modules
+Install dependencies
 
 ```bash
   git clone https://github.com/Praveenkottari/Multi-Model-object-Classifier.git
@@ -41,31 +41,25 @@ install required modules
 
 
 
-## Trainning the modle
-
-Clone the project
+## Model training
 
 ```bash
-  git clone https://link-to-project
+    cd ./path-to-/Multi-Model-object-Classifier
 ```
-
-Go to the project directory
 
 ```bash
-  cd my-project
+  python train.py --data_dir ./dataset #dataset directory with train & val
+                  --model SimpleConvNet #resent18,vit....
+                  --run_name run1_SimpleConvNet  #any name for result dir
+                  --epoch 25 # number of epoch
+                  ----num_classes=2 #by default 2
+                  --batch_size=32 #change based on requirement
+                  
+
 ```
 
-Install dependencies
 
-```bash
-  npm install
-```
 
-Start the server
-
-```bash
-  npm run start
-```
 
 
 ## Running Tests
