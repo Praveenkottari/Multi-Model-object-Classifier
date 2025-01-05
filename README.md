@@ -52,7 +52,7 @@ Install dependencies
                   --model SimpleConvNet #resent18,vit....
                   --run_name run1_SimpleConvNet  #any name for result dir
                   --epoch 25 # number of epoch
-                  ----num_classes=2 #by default 2
+                  --num_classes=2 #by default 2
                   --batch_size=32 #change based on requirement       
 ```
 note: run train-early_stop.py to consider the overfitting condition
