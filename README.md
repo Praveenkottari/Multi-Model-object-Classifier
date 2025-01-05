@@ -88,10 +88,10 @@ predication on single image
 
 Some of the importent notes from this projects:
 - This project used some sample dataset the full dataset link given in the dataset.txt file
-- This repo can be used for any number of classes and any number of samples wth any resolution
-- The result of the some of the model trained on the sample dataset given in the result folder
-- results/inference folder gives insight on the test result
-- dataset should conatine given formate. you can modify the path according to the need of the project.
+- This repo can be used for any number of classes and any number of samples with any resolution
+- The result of the models trained on the sample dataset given in the results folder
+- results/inference folder gives insight on the test results
+- dataset should containe given formate. you can modify the path according to the need of the project
 
 
 
