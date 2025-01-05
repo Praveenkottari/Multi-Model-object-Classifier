@@ -53,24 +53,16 @@ Install dependencies
                   --run_name run1_SimpleConvNet  #any name for result dir
                   --epoch 25 # number of epoch
                   ----num_classes=2 #by default 2
-                  --batch_size=32 #change based on requirement
-                  
-
+                  --batch_size=32 #change based on requirement       
 ```
-
-
-
+note: run train-early_stop.py to consider the overfitting condition
 
 
 ## Running Tests
-
-To run tests, run the following command
-
+After training process complete  utilize the trained weights to test the model.
 ```bash
-  npm run test
+  python test.py --data_dir ./dataset --model deit --weights ./results/runs/run1_SimpleConvNet/weights/best.pt
 ```
-
-## 🔗 Links
 
 
 
