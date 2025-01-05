@@ -73,7 +73,7 @@ To split the data to training and validation from raw dataset
 ```bash
   python train-val-split.py --dataset_dir ./dataset/data --train_dir ./dataset/train --val_dir ./dataset/val --train_ratio 0.75 --val_ratio 0.25
 ```
-## Predict unlabed iamges
+## Predict unlabeld image samples
 any number of image samples in the folder
 (change model weights according to your model)
 ```bash
