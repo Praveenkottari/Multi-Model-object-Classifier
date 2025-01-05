@@ -1,0 +1,18 @@
+Test Summary
+Program executed at: 2025-01-05 17:07:50
+============
+
+Model: vit
+Class names: background, target
+Testing samples: 240
+
+Final Results
+=============
+Accuracy: 95.00%
+Precision (macro): 95.01%
+Recall (macro): 95.00%
+F1-score (macro): 95.00%
+
+Classwise Accuracy:
+background: 94.17%
+target: 95.83%

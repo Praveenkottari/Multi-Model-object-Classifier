@@ -1,8 +1,8 @@
 #train
-ython train.py --data_dir ./dataset/exp1 --model resnet18 --run_name exp1-resnet18  --epoch 25
+python train.py --data_dir ./dataset --model vgg16 --run_name vgg16  --epoch 25
 
 #test
-python test.py --data_dir ./dataset/exp1 --model vgg16 --num_classes 2 --weights ./results/runs/exp1-vgg16/weights/best.pt
+python test.py --data_dir ./dataset --model deit --weights ./results/runs/deit/weights/best.pt
 
 #train-validtion split
 python train-val-split.py --dataset_dir ./dataset/exp1/data --train_dir ./dataset/exp1/train --val_dir ./dataset/exp1/val --train_ratio 0.75 --val_ratio 0.25

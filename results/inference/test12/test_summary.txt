@@ -1,0 +1,18 @@
+Test Summary
+Program executed at: 2025-01-05 17:49:21
+============
+
+Model: swin
+Class names: background, target
+Testing samples: 240
+
+Final Results
+=============
+Accuracy: 80.42%
+Precision (macro): 80.90%
+Recall (macro): 80.42%
+F1-score (macro): 80.34%
+
+Classwise Accuracy:
+background: 74.17%
+target: 86.67%

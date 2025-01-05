@@ -1,0 +1,18 @@
+Test Summary
+Program executed at: 2025-01-05 17:20:22
+============
+
+Model: densenet
+Class names: background, target
+Testing samples: 240
+
+Final Results
+=============
+Accuracy: 98.33%
+Precision (macro): 98.35%
+Recall (macro): 98.33%
+F1-score (macro): 98.33%
+
+Classwise Accuracy:
+background: 99.17%
+target: 97.50%

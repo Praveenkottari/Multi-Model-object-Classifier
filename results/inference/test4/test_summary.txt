@@ -1,0 +1,18 @@
+Test Summary
+Program executed at: 2025-01-05 17:14:18
+============
+
+Model: vgg16
+Class names: background, target
+Testing samples: 240
+
+Final Results
+=============
+Accuracy: 98.33%
+Precision (macro): 98.39%
+Recall (macro): 98.33%
+F1-score (macro): 98.33%
+
+Classwise Accuracy:
+background: 100.00%
+target: 96.67%

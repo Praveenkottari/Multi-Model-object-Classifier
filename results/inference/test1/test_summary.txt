@@ -1,0 +1,18 @@
+Test Summary
+Program executed at: 2025-01-05 16:51:05
+============
+
+Model: SimpleViTNet
+Class names: background, target
+Testing samples: 240
+
+Final Results
+=============
+Accuracy: 93.33%
+Precision (macro): 93.44%
+Recall (macro): 93.33%
+F1-score (macro): 93.33%
+
+Classwise Accuracy:
+background: 90.83%
+target: 95.83%

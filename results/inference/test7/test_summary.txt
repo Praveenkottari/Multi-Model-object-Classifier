@@ -1,0 +1,18 @@
+Test Summary
+Program executed at: 2025-01-05 17:24:39
+============
+
+Model: mobilenetv2
+Class names: background, target
+Testing samples: 240
+
+Final Results
+=============
+Accuracy: 97.92%
+Precision (macro): 97.92%
+Recall (macro): 97.92%
+F1-score (macro): 97.92%
+
+Classwise Accuracy:
+background: 97.50%
+target: 98.33%

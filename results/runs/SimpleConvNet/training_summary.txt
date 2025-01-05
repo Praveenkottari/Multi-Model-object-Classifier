@@ -1,0 +1,20 @@
+Training Summary
+Program executed at: 2025-01-05 16:53:50
+================
+
+Model: SimpleConvNet
+Number of classes: 2
+Class names: background, target
+Number of Training samples: 2000
+Number of Validation samples: 401
+Epochs: 25
+Batch size: 32
+Learning rate: 0.001
+Number of workers: 4
+
+Final Results
+=============
+Final Train Accuracy: 99.05%
+Final Validation Accuracy: 98.50%
+Final Validation Loss: 0.0482
+Final Validation Accuracy (recomputed): 98.50%

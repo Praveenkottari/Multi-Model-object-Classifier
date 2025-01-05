@@ -7,18 +7,18 @@ import torch.optim as optim
 from torchvision import transforms, datasets
 from torch.utils.data import DataLoader
 import numpy as np
-from plots import (plot_curves, plot_confusion_matrix, plot_sample_predictions,
+from utils.plots import (plot_curves, plot_confusion_matrix, plot_sample_predictions,
                    plot_f1_confidence, plot_precision_confidence,
                    plot_recall_confidence, plot_precision_recall_curve)
 from sklearn.metrics import accuracy_score
-from metrics import save_classification_report, save_summary
+from utils.metrics import save_classification_report, save_summary
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_dir', type=str, default='dataset', help='dataset directory with train/val')
+    parser.add_argument('--data_dir', type=str, default='./dataset', help='dataset directory with train/val')
     parser.add_argument('--model', type=str, default='resnet18', help='model type: resnet18 or vit')
     parser.add_argument('--num_classes', type=int, default=2, help='number of classes')
-    parser.add_argument('--epochs', type=int, default=50, help='number of training epochs')
+    parser.add_argument('--epochs', type=int, default=25, help='number of training epochs')
     parser.add_argument('--batch_size', type=int, default=32, help='batch size')
     parser.add_argument('--lr', type=float, default=0.001, help='learning rate')
     parser.add_argument('--workers', type=int, default=4, help='num workers for dataloader')
@@ -86,7 +86,10 @@ def main():
         'xception': 'models.xception',
         'resnet50': 'models.resnet50',
         'swin': 'models.swin_transformer',
-        'deit': 'models.deit'
+        'deit': 'models.deit',
+        'SimpleConvNet':'models.SimpleConvNet',
+        'SimpleViTNet' : 'models.SimpleViTNet'
+
     }
 
     chosen_model = args.model

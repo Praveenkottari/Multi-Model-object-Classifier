@@ -1,0 +1,18 @@
+Test Summary
+Program executed at: 2025-01-05 17:16:44
+============
+
+Model: efficientnet
+Class names: background, target
+Testing samples: 240
+
+Final Results
+=============
+Accuracy: 99.58%
+Precision (macro): 99.59%
+Recall (macro): 99.58%
+F1-score (macro): 99.58%
+
+Classwise Accuracy:
+background: 99.17%
+target: 100.00%

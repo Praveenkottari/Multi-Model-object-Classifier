@@ -1,0 +1,18 @@
+Test Summary
+Program executed at: 2025-01-05 17:36:14
+============
+
+Model: resnet50
+Class names: background, target
+Testing samples: 240
+
+Final Results
+=============
+Accuracy: 96.67%
+Precision (macro): 96.78%
+Recall (macro): 96.67%
+F1-score (macro): 96.66%
+
+Classwise Accuracy:
+background: 99.17%
+target: 94.17%

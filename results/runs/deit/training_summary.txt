@@ -1,0 +1,20 @@
+Training Summary
+Program executed at: 2025-01-05 17:42:56
+================
+
+Model: deit
+Number of classes: 2
+Class names: background, target
+Number of Training samples: 2000
+Number of Validation samples: 401
+Epochs: 25
+Batch size: 32
+Learning rate: 0.001
+Number of workers: 4
+
+Final Results
+=============
+Final Train Accuracy: 97.20%
+Final Validation Accuracy: 95.51%
+Final Validation Loss: 0.1531
+Final Validation Accuracy (recomputed): 95.51%

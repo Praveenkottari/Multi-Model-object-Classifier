@@ -1,0 +1,20 @@
+Training Summary
+Program executed at: 2025-01-05 17:26:04
+================
+
+Model: mobilenetv3
+Number of classes: 2
+Class names: background, target
+Number of Training samples: 2000
+Number of Validation samples: 401
+Epochs: 25
+Batch size: 32
+Learning rate: 0.001
+Number of workers: 4
+
+Final Results
+=============
+Final Train Accuracy: 99.80%
+Final Validation Accuracy: 99.00%
+Final Validation Loss: 0.0385
+Final Validation Accuracy (recomputed): 99.00%
