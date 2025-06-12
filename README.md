@@ -1,5 +1,5 @@
 
-# Genralized image classifcation pipline
+# Generalized image classification pipeline
 
 This repository provides a complete end-to-end pipeline for multi-class image classification, designed to work with any number of classes and any image resolution. It integrates 12 state-of-the-art and fundamental backbone architectures, including both CNNs and Vision Transformers (ViTs), as well as two customized models tailored for multi-class classification problems.
 
