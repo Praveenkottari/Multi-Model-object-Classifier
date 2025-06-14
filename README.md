@@ -94,4 +94,6 @@ Some of the importent notes from this projects:
 - dataset should containe given formate. you can modify the path according to the need of the project
 
 
-
+## Dataset used in this experiment 
+Although this repo can be generalized for any number of class and any dataset, this dataset is just for example
+https://www.kaggle.com/datasets/airbusgeo/airbus-wind-turbines-patches?resource=download 
