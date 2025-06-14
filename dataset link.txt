@@ -1,5 +1,0 @@
-#Full dataset used in this experiment is give below.
-Although this repo can be generalized for any number of class and any dataset, this dataset is just for example
-
-
-https://www.kaggle.com/datasets/airbusgeo/airbus-wind-turbines-patches?resource=download 
